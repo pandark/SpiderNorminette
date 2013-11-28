@@ -45,6 +45,8 @@ ft_grep "//"
 category "MISC"
 check "more than one instruction per line"
 ft_grep ";.*;"
+check "more than 80 cols per line"
+ft_grep ".\{81,\}"
 
 echo ""
 
