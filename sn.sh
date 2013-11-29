@@ -1,4 +1,4 @@
-echo "\n\033[38;5;167m  Thanks for using SpiderNorminette v0.1\033[0m"
+echo "\n\033[38;5;167m  Thanks for using SpiderNorminette v0.11\033[0m"
 
 # This programs checks some common norm mistakes.
 # Feel free to suggest improvements :)
