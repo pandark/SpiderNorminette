@@ -39,6 +39,11 @@ ft_grep "=" | grep -v " = \| == \| != \| -= \| += \| *= \| /= \| >= \| <= "
 category "REQUIRED CASTS"
 check "casts before mallocs"
 ft_grep " malloc(" 
+
+category "COMMENTARIES"
+check "bad commentary formating"
+ft_grep "/\*.+|.+\*/" | grep -v "ENDIF /\*"
+ft_grep "^ \*"
 check "// commentaries"
 ft_grep "//"
 
